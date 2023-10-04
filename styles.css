@@ -58,11 +58,14 @@ span{
     justify-content: center;
 }
 .right{
-    display: inline-block;
-   
+    display: flex;
+    flex-direction: column;   
 }
 .right>button{
-    height: 340px;
+    color: #0ef;
+}
+.equ{
+    height: 250px;
     border-radius: 15px;
     color: #0ef;
 }
